@@ -1,0 +1,288 @@
+.play-btn {
+    width: 94px;
+    height: 94px;
+    background: radial-gradient(#cda45e 50%, rgba(205, 164, 94, 0.4) 52%);
+    border-radius: 50%;
+    display: block;
+    position: relative;
+    overflow: hidden;
+  }
+  
+.play-btn::after {
+    content: '';
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-40%) translateY(-50%);
+    width: 0;
+    height: 0;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    border-left: 15px solid #fff;
+    z-index: 100;
+    transition: all 400ms cubic-bezier(0.55, 0.055, 0.675, 0.19);
+  }
+  
+  .play-btn::before {
+    content: '';
+    position: absolute;
+    width: 120px;
+    height: 120px;
+    -webkit-animation-delay: 0s;
+    animation-delay: 0s;
+    -webkit-animation: pulsate-btn 2s;
+    animation: pulsate-btn 2s;
+    -webkit-animation-direction: forwards;
+    animation-direction: forwards;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+    -webkit-animation-timing-function: steps;
+    animation-timing-function: steps;
+    opacity: 1;
+    border-radius: 50%;
+    border: 5px solid rgba(205, 164, 94, 0.7);
+    top: -15%;
+    left: -15%;
+    background: rgba(198, 16, 0, 0);
+  }
+  
+  .play-btn:hover::after {
+    border-left: 15px solid #cda45e;
+    transform: scale(20);
+  }
+  
+  .play-btn:hover::before {
+    content: '';
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-40%) translateY(-50%);
+    width: 0;
+    height: 0;
+    border: none;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    border-left: 15px solid #fff;
+    z-index: 200;
+    -webkit-animation: none;
+    animation: none;
+    border-radius: 0;
+  }
+
+  @-webkit-keyframes pulsate-btn {
+    0% {
+      transform: scale(0.6, 0.6);
+      opacity: 1;
+    }
+    100% {
+      transform: scale(1, 1);
+      opacity: 0;
+    }
+  }
+  
+  @keyframes pulsate-btn {
+    0% {
+      transform: scale(0.6, 0.6);
+      opacity: 1;
+    }
+    100% {
+      transform: scale(1, 1);
+      opacity: 0;
+    }
+  }
+
+  .HeaderSection{
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: center;
+      height: 300px;
+      margin-bottom: 40px;
+      width: 100%;
+      animation: AnimateHeader-welcome-h1 1.5s;
+      /* background-color: red; */
+  }
+
+
+
+
+  .Header-welcome{
+      display: flex;
+      flex-direction: column;
+      justify-content: space-evenly;
+      height: 300px;
+      
+      align-items: center;
+      /* background-color: green; */
+  }
+
+
+  
+.Header-welcome-subdiv{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.Header-welcome-subdiv h2, .Header-welcome h1{
+    margin: 0;
+
+}
+  .Header-welcome h1{
+    margin: 0;
+      font-size: xx-large;
+      color: white;
+      font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      font-weight: 900;
+      text-transform: capitalize;
+      /* animation: AnimateHeader-welcome-h1 1.5s; */
+      
+  }
+
+  @keyframes AnimateHeader-welcome-h1 {
+    0% {
+      opacity: 0;
+      transform: scale(0);
+      
+    }
+    
+    
+    
+
+    100%{
+      opacity: 1;
+      /* transform:skew(1); */
+      /* font-size: xx-large; */
+      transform: scale(1);
+
+    }
+  }
+
+
+
+  .Header-welcome h1 span{
+      color: #cda45e;
+  }
+
+  .Header-welcome h2{
+      width: 100%;
+    /* background-color: red; */
+      font-weight: 520;
+      font-size: 20.7px;
+      color: white;
+      font-family: Georgia, 'Times New Roman', Times, serif;
+      animation: AnimateHeader-welcome-h2 1.5s;
+      /* font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
+  }
+/* 
+  @keyframes AnimateHeader-welcome-h2 {
+    0% {
+      opacity: 0;
+      font-size: 10px;
+      /* width: 40%; */
+    /* } */
+
+    /* 100%{ */
+      /* opacity: 1; */
+      /* font-size: 20.7px; */
+    /* } */
+  /* } */ 
+
+
+
+
+  .Header-welcome button{
+      background-color: inherit;
+      /* background-color: green; */
+      color: white;
+      border-radius: 25px;
+      border-style: solid;
+      border-color: #cda45e;
+      animation:  Header-welcome-buttons 1.5s;
+      height: 50px;
+      width: 170px;
+      border-collapse: separate;
+      font-weight: 600;
+      font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+  }
+  @media (max-width: 330px){
+    .header-Buttons button{
+      width: 50%;
+    }
+  }
+
+
+  .header-Buttons{
+      display: flex;
+      /* background-color: black; */
+      width: 90%;
+      justify-content: space-between;
+      animation:  Header-welcome-buttons 0.9s;
+  }
+
+
+  @keyframes Header-welcome-buttons{
+    0%{
+      opacity: 0;
+    }
+    100%{
+      opacity: 1;
+    }
+  }
+.Header-welcome button:hover{
+      cursor: pointer;
+      /* transition-property: all;
+      transition-duration: 0.3s;
+      transition-delay: 0.2s; */
+      background-color: #cda45e;
+      /* transition-property: ease-out; */
+      transition: all 0.5s ease-out;
+  }
+  .youtube-button{
+    display: flex;
+    justify-content: center;
+}
+
+
+
+@media (min-width: 800px){
+    .youtube-button{
+        height: 100%; 
+        align-items: center;
+        width: 40%;
+    }
+  .HeaderSection{
+        display:flex;
+        flex-direction: row;
+        justify-content: space-between;
+        /* padding: 10px; */
+        width: 90%;
+        /* background-color: red; */
+        padding-left: 30px;
+  }
+
+  .Header-welcome{
+      align-items: flex-start;
+      
+  }
+  .Header-welcome h1{
+      font-size: 50px;
+      display: flex;
+      flex-direction: column;
+      /* background-color: #cda45e; */
+      width: 100% ;
+  }
+  .Header-welcome-subdiv{
+      width: 100%;
+      /* background-color: gray; */
+      /* align-items: flex-start; */
+      text-align: left;
+  }
+
+
+  .play-btn{
+      /* left: 300px; */
+  }
+}
+

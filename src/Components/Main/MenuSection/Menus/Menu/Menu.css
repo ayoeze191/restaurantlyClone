@@ -1,0 +1,62 @@
+.Menu {
+    display: flex;
+    width: 80%;
+    box-sizing: content-box;
+    margin-bottom: 20px;
+    justify-content: space-between;
+    /* background-color: red; */
+}
+
+
+.Menu-img{
+    background-color: rgba(250, 235, 215, 0.59);
+    border-radius: 30px;
+    height: fit-content;
+    margin-right: 20px;
+}
+.Menu-img img {
+    border-radius: 50px;
+    margin: auto;
+}
+.Menu-Descriptions{
+    flex: 1;
+}
+.Menu-ingredients::after {
+    content: '----------------';
+    margin-left: 10px;
+    color: rgb(169, 158, 158);
+    /* background-color: red; */
+    /* outline-color: red; */
+}
+
+.Menu-ingredients{
+    color: white;
+}
+.Menu-ingredients-description{
+    color: rgb(169, 158, 158);
+}
+.Menu-price{
+    color: rgb(225, 184, 107);
+}
+  .Remove-Menu {
+      display: none;
+      transition: all 10s ease-out;
+      /* animation: Remove 2s ease-out forwards;   */
+  }
+
+  .Add-nav{
+      transition: all 0.1s;
+      animation: Add 0.2s ease-out forwards;
+}
+
+/* @media screen and (min-width: 500px){
+    .Menu {
+        width: 450px;
+    }
+} */
+
+@media screen and (min-width: 900px){
+    .Menu{
+        width: initial;
+    }
+} 

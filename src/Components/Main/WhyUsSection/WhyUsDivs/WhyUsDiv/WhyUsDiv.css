@@ -1,0 +1,39 @@
+.WhyUsDiv {
+    background: #181715;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+    box-sizing: border-box;
+    justify-content: space-evenly;
+    text-align: left;
+    padding: 20px;
+    box-shadow: 10px 15px 30px rgba(0, 0, 0, 0.18);
+}
+
+.WhyUsDiv:hover{
+    background: #cda45e;
+    cursor: pointer;
+    transition: all 1s ease-in-out;
+    padding: 30px 30px 70px 30px;
+  box-shadow: 10px 15px 30px rgba(0, 0, 0, 0.18);
+}
+
+.WhyUsDiv .p{
+  color: #aaaaaa;
+  font-weight: 500;
+  margin: 0;
+  padding: 0;
+  font-size: x-large;
+}
+.no {
+    color: #cda45e;
+    font-size: xx-large;
+    font-weight: 700;
+}
+.WhyUsDiv .h{
+    font-size: 40px;
+    color: white;
+    font-weight: 700;
+    font-family: serif;
+}

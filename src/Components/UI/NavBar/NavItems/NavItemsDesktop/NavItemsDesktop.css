@@ -1,0 +1,44 @@
+.NavItemsDesktop-Top{
+    display: flex;
+    flex-direction: row;
+    width: 800px;
+    align-items: center;
+    /* background-color: orange; */
+    height: 100%;
+    /* margin-right: 20px; */
+}
+
+.NavItemsDesktop{
+  
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    color: white;
+    /* background-color: red; */
+    /* flex: 1; */
+    width: 100%;
+    align-items: center;
+}
+
+.NavItemsDesktop a{
+    color: white;
+    text-decoration: none;
+
+}
+
+.navDeskBtn{
+    background-color: inherit;
+    color: white;
+    width: 200px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    border-color: #cda45e;
+    border-radius: 20px;
+
+}
+
+@media screen and (max-width: 1100px){
+    .NavItemsDesktop-Top{
+        display: none;
+    }
+}

@@ -1,0 +1,87 @@
+.MenuSelection{
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    padding-top: 70px;
+    width: 100%;
+    align-items: center;
+    margin: auto;
+   
+}
+.MenuSelectionFirstDiv{
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 80%;
+    color: rgb(225, 184, 107);
+    margin-bottom: 70px;
+    
+}
+
+.changeColor{
+    color: rgb(225, 184, 107);
+}
+.MenuSelection h2{
+    /* display: flex; */
+    font-weight: 100;
+    font-family: "Poppins", sans-serif;
+    border-style: none;
+    margin: 0px;
+}
+
+.MenuSelection h2::after{
+    content: '';
+    height: 1px;
+    width: 80px;
+    margin: 7px;
+    display: inline-block;
+    background-color: rgb(225, 184, 107);
+}
+
+.MenuSelection
+.MenuSelection p{
+    margin: 0px;
+    font-weight: 600;
+    font-size: 40px;
+    font-family:serif;
+    border: none;
+}
+
+.MenuSelectionSecondDiv{
+    display: flex;
+    color: white;
+    list-style: none;
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    /* background-color: red; */
+   
+
+    justify-content: space-evenly;
+    /* background-color: red; */
+    /* height: 40px; */
+    font-size: x-large;
+    font-family:serif;
+    /* margin: auto; */
+}
+@media screen and (max-width: 500px) {
+    .MenuSelectionSecondDiv{
+        width: 90%;
+        display: flex;
+        /* justify-content: flex-start; */
+    }   
+}
+
+.MenuSelectionSecondDiv a:hover,.MenuSelectionSecondDiv a:active {
+    color: darkgoldenrod;
+    cursor: pointer;
+}
+
+
+@media screen and (min-width: 1300px){
+    .MenuSelectionFirstDiv{
+        width: 87%;
+    }
+}

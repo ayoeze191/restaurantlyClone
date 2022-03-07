@@ -1,0 +1,11 @@
+.NavItem {
+    height: 20px;
+}
+@media screen and (max-width: 1300px) {
+    .NavItem {
+        height: fit-content;
+    }
+}
+/* .NavItem:hover {
+    height: 60px;
+} */

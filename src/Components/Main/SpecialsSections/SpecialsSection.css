@@ -1,0 +1,76 @@
+.Boss{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color: black;
+    align-items: center;
+}
+
+.SpecialsSection{
+    display: flex;
+    flex-direction: column;
+    color: #cda45e;
+    width: 90%;
+    font-weight: thin;
+}
+.SpecialsSection h2{
+    display: flex;
+    width: 50%;
+    align-items: center;
+    font-weight: 100;
+    font-family: "Poppins", sans-serif;
+}
+.SpecialsSection p{
+    font-size: xx-large;
+    
+}
+@media screen and (min-width:1000px) {
+    
+    .SpecialsSection{
+        width: 89%;
+        
+        /* background-color: #cda45e; */
+    }
+    .Specials-links {
+        width: 350px;
+        border-right-style: solid;
+        height: fit-content;
+        border-color: #cda45e;
+    }
+    .Specials-links a{
+        height: 30px;
+    }
+}
+.SpecialsSectionDiv{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+@media screen and (min-width:1000px) {
+    .SpecialsSectionDiv{
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        width: 89%;
+        
+        /* background-color: red; */
+    }
+    .SpecialsSection h2{
+        width: 20%;
+        
+    }
+}
+.Specials-links{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    
+}
+.Specials-links a{
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+}
+.a{
+    background-color: #cda45e;
+}
