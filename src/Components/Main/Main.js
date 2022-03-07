@@ -11,7 +11,6 @@ const Main = () => {
              <MenuSelection />
                 <SpecialsSection />
         </div>
-      
     )
 }
 

@@ -7,7 +7,7 @@ const OverLay = (props) => {
         )
     }
     return (
-        <div className = "Overlay" style = {{height: `${props.height}`, width : "100%", backgroundColor: Color()}}>{props.children}</div>
+        <div className = "Overlay" style = {{height: `${props.height}`, width : "100%", backgroundColor: Color(), position:`${props.position}`}}>{props.children}</div>
     )
 }
 

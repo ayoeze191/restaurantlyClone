@@ -2,7 +2,8 @@
     /* height: 200vh; */
     /* width: 100%; */
     box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
-    background-color: #020202f1;
+    /* background-color: #020202f1; */
+    /* background-color: green; */
     
     margin: 0;
     display: flex;
@@ -10,6 +11,7 @@
     align-items: center;
     justify-content: space-evenly;
     padding-bottom: 60px;
+    /* position: relative; */
     
 }
 hr{

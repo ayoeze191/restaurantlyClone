@@ -4,7 +4,7 @@
     justify-content: space-evenly;
 }
 
-@media screen and (min-width: 1300px) {
+@media screen and (min-width: 1000px) {
    .WhyUsDivs { 
        display: flex;
         flex-direction: row;

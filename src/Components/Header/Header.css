@@ -3,7 +3,7 @@
     transition: all 10s;
     display: flex;
     justify-content: center;
-    height: 90vh;
+    height: 70vh;
     background-position:center;
     background-size: cover;
     background-repeat: no-repeat;   
@@ -12,4 +12,10 @@
     transition: all 0.5s;
     /* z-index: 997; */
     /* top: 40px; */
+}
+
+@media (max-width: 403px){
+    .Header {
+        /* height: fit-content; */
+    }
 }

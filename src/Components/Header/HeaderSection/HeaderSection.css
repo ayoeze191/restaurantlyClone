@@ -129,14 +129,20 @@
 
 }
   .Header-welcome h1{
-    margin: 0;
+      margin: 0;
       font-size: xx-large;
       color: white;
       font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
       font-weight: 900;
       text-transform: capitalize;
       /* animation: AnimateHeader-welcome-h1 1.5s; */
-      
+  }
+
+  @media (max-width: 403px){
+    .Header-welcome-subdiv h1{
+      display: flex;
+      flex-shrink: 1;
+    }
   }
 
   @keyframes AnimateHeader-welcome-h1 {
@@ -210,6 +216,7 @@
     .header-Buttons button{
       width: 50%;
     }
+
   }
 
 
@@ -259,7 +266,7 @@
         /* padding: 10px; */
         width: 90%;
         /* background-color: red; */
-        padding-left: 30px;
+        padding-left: 30px; 
   }
 
   .Header-welcome{

@@ -11,12 +11,20 @@
     box-shadow: 10px 15px 30px rgba(0, 0, 0, 0.18);
 }
 
+
 .WhyUsDiv:hover{
     background: #cda45e;
     cursor: pointer;
     transition: all 1s ease-in-out;
     padding: 30px 30px 70px 30px;
-  box-shadow: 10px 15px 30px rgba(0, 0, 0, 0.18);
+    box-shadow: 10px 15px 30px rgba(0, 0, 0, 0.18);
+}
+
+@media screen and (max-width: 400px){
+    .WhyUsDiv:hover{
+      transition: none;
+      padding: auto;
+    }
 }
 
 .WhyUsDiv .p{

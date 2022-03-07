@@ -9,11 +9,11 @@ import aboutBg from '../../../../assets/aboutBg.jpg';
 const AboutSection = () => {
     return (
         <div style = {{ backgroundImage: `url(${aboutBg})`}} id = "About" className = "AboutSection">
-            <OverLay height = "100" thickness = "0.6">
+            <OverLay height = "fit-content" thickness = "0.6" position = "normal">
                 <div className = "secondAbout">
                 <div className = 'about-img'>
                   <div className = "cutters-div">
-                    <div className = "cutter up">
+                    <div className = "cutter up"> 
                     </div>
                     <div className = "cutter down">
                     </div>

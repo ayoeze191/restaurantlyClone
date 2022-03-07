@@ -18,4 +18,4 @@ const WhyUs = () => {
         </div>
     )
 }
-export default WhyUs
+export default WhyUs 

@@ -10,7 +10,7 @@ const HeaderSection = () => {
             </div>
             <div className = "header-Buttons">
                 <button> OUR MENU </button> <button> BOOK A TABLE </button>
-            </div>
+            </div> 
 
             </div>
            

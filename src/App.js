@@ -41,7 +41,7 @@ class App extends Component {
     <div className="App">
      
       <Header />
-      <OverLay height = "90vh" thickness = "0.4">
+      <OverLay height = "70vh" thickness = "0.4" position = 'absolute'>
         <div className = "Top-Group">
      <TopBar />
      <NavBar ShowMobileNav = {this.ShowMobileNav}/>
