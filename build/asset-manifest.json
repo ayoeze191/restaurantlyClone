@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/static/css/main.69a889ac.css",
+    "main.js": "/static/js/main.72bb8cc2.js",
+    "static/js/787.c64f6910.chunk.js": "/static/js/787.c64f6910.chunk.js",
+    "static/media/specials4.png": "/static/media/specials4.59e1d42f216499fcb5b0.png",
+    "static/media/specials5.png": "/static/media/specials5.8dc7759e3f0542f882e4.png",
+    "static/media/specials3.png": "/static/media/specials3.5cca0df18e5f45daa93f.png",
+    "static/media/specials2.png": "/static/media/specials2.510cf1f3e556552e00e6.png",
+    "static/media/herobg.jpg": "/static/media/herobg.d246ce4007858a2604b4.jpg",
+    "static/media/specials1.png": "/static/media/specials1.2bd41672df73300c5dab.png",
+    "static/media/about.jpg": "/static/media/about.da1e6911da0f6c303741.jpg",
+    "static/media/aboutBg.jpg": "/static/media/aboutBg.dfe20f92dd1f652efa8e.jpg",
+    "static/media/spinachSalad.jpg": "/static/media/spinachSalad.67dec02faaca50dd6649.jpg",
+    "static/media/greekSalad.jpg": "/static/media/greekSalad.19efa18bff3380b836ce.jpg",
+    "static/media/breadBarrel.jpg": "/static/media/breadBarrel.7f860d3925cae1dfbc2e.jpg",
+    "static/media/caesar.jpg": "/static/media/caesar.9edf20ebc616edef0272.jpg",
+    "static/media/lobsterRoll.jpg": "/static/media/lobsterRoll.c5b6c7579bdf33ad20f5.jpg",
+    "static/media/lobsterBisque.jpg": "/static/media/lobsterBisque.4d902d2e46ee0bdc8c8b.jpg",
+    "static/media/tuscanGrilled.jpg": "/static/media/tuscanGrilled.d17561021c9c8b0b1734.jpg",
+    "static/media/mozzarella.jpg": "/static/media/mozzarella.680ecdc87e2a5ee2b12d.jpg",
+    "static/media/cake.jpg": "/static/media/cake.9d32a08df19210926195.jpg",
+    "index.html": "/index.html",
+    "static/media/iconclose.svg": "/static/media/iconclose.c6580312401807bc9f98867a80e2bc37.svg",
+    "static/media/nav.svg": "/static/media/nav.68867946847c3249542e85c3745a1e06.svg",
+    "main.69a889ac.css.map": "/static/css/main.69a889ac.css.map",
+    "main.72bb8cc2.js.map": "/static/js/main.72bb8cc2.js.map",
+    "787.c64f6910.chunk.js.map": "/static/js/787.c64f6910.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.69a889ac.css",
+    "static/js/main.72bb8cc2.js"
+  ]
+}
