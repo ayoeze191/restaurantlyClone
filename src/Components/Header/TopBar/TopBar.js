@@ -9,7 +9,7 @@ const TopBar = () => {
         <i class="bi"><span>+1 5589 55488 55</span></i>
         <i class="bi"><span> Mon-Sat: 11AM - 23PM</span></i>
       </div>
-
+ 
       <div class="languages">
         <ul>
           <li> <span>En</span></li>

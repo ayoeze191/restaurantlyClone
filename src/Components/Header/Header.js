@@ -10,8 +10,6 @@ import './Header.css'
 const Header = () => {
     
 const [MobileNavStatus, setMobileNavStatus] = useState(false);
-      
-    
       const ShowMobileNav = () => {
         setMobileNavStatus(true)
           // console.log(this.state.MobileNavStatus)
@@ -22,7 +20,6 @@ const [MobileNavStatus, setMobileNavStatus] = useState(false);
       }
     return (
         <div id = "Home" className = "Header" style = {{ backgroundImage: `url(${herobg})`}}>
-            
      <TopBar />
      <NavBar ShowMobileNav = {ShowMobileNav}/>  
      <HeaderSection />
