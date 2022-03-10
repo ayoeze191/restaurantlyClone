@@ -10,7 +10,8 @@
     flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
-    padding-bottom: 60px;
+    padding: 60px 0;
+    
     /* position: relative; */
     
 }
@@ -55,7 +56,7 @@ hr{
 .WhyUsFirstDiv p {
     margin: 0px;
     font-weight: 600;
-    font-size: 35px;
+    font-size: 1.5rem;
     font-family:serif;
     border: none;
     width: 100%;

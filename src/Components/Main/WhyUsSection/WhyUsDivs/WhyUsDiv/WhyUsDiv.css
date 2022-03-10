@@ -12,6 +12,7 @@
 }
 
 
+
 .WhyUsDiv:hover{
     background: #cda45e;
     cursor: pointer;
@@ -33,15 +34,15 @@
   font-weight: 500;
   margin: 0;
   padding: 0;
-  font-size: x-large;
+  font-size: large;
 }
 .no {
     color: #cda45e;
-    font-size: xx-large;
+    font-size: x-large;
     font-weight: 700;
 }
 .WhyUsDiv .h{
-    font-size: 40px;
+    font-size: 25px;
     color: white;
     font-weight: 700;
     font-family: serif;
