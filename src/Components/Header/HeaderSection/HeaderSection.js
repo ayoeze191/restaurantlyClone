@@ -11,9 +11,9 @@ const HeaderSection = () => {
             <div className = "header-Buttons">
                 <button> OUR MENU </button> <button> BOOK A TABLE </button>
             </div> 
-
+ 
             </div>
-           
+
             
             <div className = "youtube-button">
             <a href="https://www.youtube.com/watch?v=GlrxcuEDyF8" className="glightbox play-btn"></a>
