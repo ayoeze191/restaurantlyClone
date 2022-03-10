@@ -6,6 +6,8 @@ import aboutBg from '../../../../assets/aboutBg.jpg';
 
 
 
+
+
 const AboutSection = () => {
     return (
         <div style = {{ backgroundImage: `url(${aboutBg})`}} id = "About" className = "AboutSection">

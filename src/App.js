@@ -10,48 +10,15 @@ import { useState, Component } from 'react';
 import { useSpring, animated } from 'react-spring';
 class App extends Component {
   // const [MobileNavStatus, setMobileNavStatus] = useState(false)
-  state = {
-    MobileNavStatus: false
-  }
-
-  ShowMobileNav = () => {
-    
-      this.setState({
-        MobileNavStatus : true
-      }
-      )
-      // console.log(this.state.MobileNavStatus)
-  }
-
-  RemoveMobileNav = () => {
-      this.setState({
-        MobileNavStatus : false
-      })
-  }
-
   
-
-
-
-  
-
 
   render() {
   return (
     <div className="App">
-     
       <Header />
-      <OverLay height = "70vh" thickness = "0.4" position = 'absolute'>
-        <div className = "Top-Group">
-     <TopBar />
-     <NavBar ShowMobileNav = {this.ShowMobileNav}/>
-     </div>
-
-     <div className = "Top-Second-Group">
-       
-     <HeaderSection />
-     </div>
-        </OverLay>
+      {/* <OverLay height = "70vh" thickness = "0.4" position = 'absolute'> */}
+        
+        {/* </OverLay> */}
         {/* <Transition 
         native
         item={this.state.MobileNavStatus}
@@ -64,7 +31,7 @@ class App extends Component {
           </animate.div>
       ))}
       </Transition> */}
-      {this.state.MobileNavStatus?<NavItemsMobile RemoveMobileNav = {this.RemoveMobileNav} />:null}
+      
       
       
       <Main />

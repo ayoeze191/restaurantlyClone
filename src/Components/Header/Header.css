@@ -2,20 +2,39 @@
     /* position: fixed; */
     transition: all 10s;
     display: flex;
-    justify-content: center;
-    height: 70vh;
+    justify-content: space-between;
+    flex-direction: column;
     background-position:center;
     background-size: cover;
     background-repeat: no-repeat;   
     /* top: 0; */
     bottom: 0;
+    position: relative;
+    z-index: 1;
     transition: all 0.5s;
     /* z-index: 997; */
     /* top: 40px; */
+    min-height: 500px;
 }
 
-@media (max-width: 403px){
-    .Header {
-        /* height: fit-content; */
+
+@media (min-width: 800px){
+    .Header{
+        max-height: 80vh;
     }
 }
+
+.Header::after{
+    opacity: .7;
+    z-index: -1;
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+}
+
+
+

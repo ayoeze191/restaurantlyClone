@@ -265,6 +265,8 @@
         justify-content: space-between;
         /* padding: 10px; */
         width: 90%;
+        max-width: ;
+        margin: 0 auto;
         /* background-color: red; */
         padding-left: 30px; 
   }

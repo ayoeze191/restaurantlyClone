@@ -15,6 +15,7 @@
 .secondAbout{
     position: relative;
     width: 90%;
+    margin: 0 auto;
     padding-top: 30px;
     /* height: 100%; */
     display: flex;
@@ -27,17 +28,17 @@
 }
 .about-img{
     width: 80%;
-    height: 360px;
+    height: 300px;
     display: flex;
     justify-content: center;
     align-items: center;
     animation: AnimateAboutImage 1.4s;
-    /* height: 500px; */
+    margin: 0 auto;
     position: relative;
     border-style: solid;
     border-width: 7px;
     transition: all 0.6s ease-in-out;
-    /* top: 100px; */
+  
     
     border-width: 5px;
     border-color: rgb(112, 109, 109);
@@ -45,7 +46,7 @@
 
 .about-img:hover{
     width: 90%;
-    height: 400px;
+    height: 350px;
 }
 
 .about-image-div{
@@ -65,13 +66,16 @@
         
         width: 450px;
         height: 360px;
-    }
+    } 
 }
 
 @media screen and (min-width: 1300px){
     .secondAbout{
         display: flex;
         flex-direction: row; 
+        /* align-items: center; */
+        /* background-color: red; */
+        justify-content: space-evenly;
 
     }
     
@@ -89,6 +93,7 @@
     .AboutSection .content{
         max-width: 650px;
         order: 1;
+        margin: auto;
     }
     .about-img{
       max-width: 390px;

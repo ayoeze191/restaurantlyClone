@@ -1,10 +1,11 @@
 .TopBar{
     /* background-color: red; */
-    width: 90%;
+    min-width: 90%;
     display: flex;
     flex-direction: row;
     justify-content: center;
     height: 50px;
+    margin: 0 auto;
 }
 .contact-info{
     /* list-style: none; */
