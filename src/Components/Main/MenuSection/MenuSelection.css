@@ -78,10 +78,16 @@
     color: darkgoldenrod;
     cursor: pointer;
 }
+.MenuSelectionSecondDiv a{
+    font-size: 1.2rem;
+}
 
 
 @media screen and (min-width: 1300px){
     .MenuSelectionFirstDiv{
         width: 87%;
+    }
+    .MenuSelectionSecondDiv a{
+        font-size: inherit;
     }
 }

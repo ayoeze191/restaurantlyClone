@@ -132,21 +132,21 @@
 }
 
 .AboutSection .content h3{
-    font-size: xx-large;
+    font-size: x-large;
 }
 
 .AboutSection .content p{
-    font-size: large;
-    font-weight: 500;
-
-   
+    font-size: medium;
+    font-weight: 500;   
 }
+
+
 .AboutSection .content .fst-italic{
      font-style: italic;
 }
 
 .AboutSection .content ul{
-    font-size: large;
+    font-size: medium;
 }
 
 
