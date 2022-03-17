@@ -1,3 +1,5 @@
+/* play button styles */
+
 .play-btn {
     width: 94px;
     height: 94px;
@@ -6,6 +8,7 @@
     display: block;
     position: relative;
     overflow: hidden;
+    /* bottom: 5rem; */
   }
   
 .play-btn::after {
@@ -91,74 +94,97 @@
     }
   }
 
+/* end play button styles */
+
+
+
+
   .HeaderSection{
       display: flex;
       flex-direction: column;
-      justify-content: space-between;
+      justify-content: center;
       align-items: center;
-      height: 300px;
+      /* height: 300px; */
+      
       margin-bottom: 40px;
       margin-left: auto;
       margin-right: auto;
       width: 90%;
+      max-width: 1200px;
       animation: AnimateHeader-welcome-h1 1.5s;
+      flex: 1.5;
+      margin-bottom: 0;
+
       /* background-color: red; */
+      
   }
 
-
+ 
 
 
   .Header-welcome{
       display: flex;
       flex-direction: column;
       justify-content: space-evenly;
-      height: 300px;
       flex-shrink: 1;
       align-items: center;
       /* background-color: green; */
   }
+  @media screen and (min-width:768px) {
+    .HeaderSection{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
 
+    }
+    .Header-welcome{
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+    }
+    .header-Buttons{
+      margin-left: 0;
+      /* background-color: red; */
+    }
+}
 
   
 .Header-welcome-subdiv{
     align-items: center;
+    width: 100%;
+    /* background-color: red; */
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
 }
-.Header-welcome-subdiv h2, .Header-welcome h1{
-    margin: 0;
 
-}
   .Header-welcome h1{
       margin: 0;
-      /* font-size: xx-large; */
+      font-size: 1.75rem;
       color: white;
       font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
       font-weight: 900;
+      display: flex;
+      flex-shrink: 1;
+      flex-direction: column;
+      align-items: center;
       text-transform: capitalize;
       /* animation: AnimateHeader-welcome-h1 1.5s; */
   }
 
-  @media (max-width: 403px){
-    .Header-welcome-subdiv h1{
-      display: flex;
-      flex-shrink: 1;
-      /* font-size: 3rem; */
-      /* font-size: 30px; */
-    }
+  @media screen and (min-width: 400px){
+      .Header-welcome h1{
+        display: flex;
+        flex-direction: row;
+      }
   }
 
+/* animations  */
   @keyframes AnimateHeader-welcome-h1 {
     0% {
       opacity: 0;
       transform: scale(0);
       
     }
-    
-    
-    
-
     100%{
       opacity: 1;
       /* transform:skew(1); */
@@ -178,31 +204,18 @@
       width: 100%;
     /* background-color: red; */
       font-weight: 520;
-      font-size: 17px;
+      font-size: 1.125rem;
       color: white;
       font-family: Georgia, 'Times New Roman', Times, serif;
       animation: AnimateHeader-welcome-h2 1.5s;
       /* font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
   }
-/* 
-  @keyframes AnimateHeader-welcome-h2 {
-    0% {
-      opacity: 0;
-      font-size: 10px;
-      /* width: 40%; */
-    /* } */
-
-    /* 100%{ */
-      /* opacity: 1; */
-      /* font-size: 20.7px; */
-    /* } */
-  /* } */ 
-
 
 
 
   .Header-welcome button{
       background-color: inherit;
+      margin-bottom: 20px;
       /* background-color: green; */
       color: white;
       border-radius: 25px;
@@ -210,26 +223,25 @@
       border-color: #cda45e;
       animation:  Header-welcome-buttons 1.5s;
       height: 50px;
-      width: 170px;
+      padding: 0 1.0rem;
+      /* width: 170px; */
       border-collapse: separate;
       font-weight: 600;
       font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 
   }
-  @media (max-width: 330px){
-    .header-Buttons button{
-      width: 50%;
-    }
 
-  }
 
 
   .header-Buttons{
       display: flex;
       /* background-color: black; */
       width: 90%;
+      max-width: 18rem;
+
       justify-content: space-between;
       animation:  Header-welcome-buttons 0.9s;
+      flex-wrap: wrap;
   }
 
 
@@ -241,61 +253,20 @@
       opacity: 1;
     }
   }
-.Header-welcome button:hover{
-      cursor: pointer;
-      /* transition-property: all;
-      transition-duration: 0.3s;
-      transition-delay: 0.2s; */
-      background-color: #cda45e;
-      /* transition-property: ease-out; */
-      transition: all 0.5s ease-out;
-  }
-  .youtube-button{
-    display: flex;
-    justify-content: center;
-}
 
 
-
-@media (min-width: 500px){
-    .youtube-button{
-        height: 100%; 
-        align-items: center;
-        width: 40%;
+  @media screen and (min-width:768px){
+    .Header-welcome h1{
+        font-size: 3rem;
     }
-  .HeaderSection{
-        display:flex;
-        flex-direction: row;
-        justify-content: space-between;
-        /* padding: 10px; */
-        width: 90%;
-        
-        margin: 0 auto; 
-        /* background-color: red; */
-        padding-left: 30px; 
-  }
-
-  .Header-welcome{
-      align-items: flex-start;
-      
-  }
-  .Header-welcome h1{
-      font-size: xx-large;
-      display: flex;
-      flex-direction: column;
-      /* background-color: #cda45e; */
-      width: 100% ;
-  }
-  .Header-welcome-subdiv{
-      width: 100%;
-      /* background-color: gray; */
-      /* align-items: flex-start; */
-      text-align: left;
-  }
-
-
-  .play-btn{
-      /* left: 300px; */
-  }
+    .header-Buttons{
+      margin: 0;
+    }
+    .Header-welcome h2{
+      font-size: 1.375rem;
+    }
+    .Header-welcome button{
+      /* padding: auto auto; */
+    }
+    
 }
-

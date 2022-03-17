@@ -8,27 +8,61 @@
     margin: auto;
    
 }
+
 .MenuSelectionFirstDiv{
-    margin: auto;
+    /* margin: auto; */
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
-    width: 80%;
-    color: rgb(225, 184, 107);
-    margin-bottom: 70px;
+    /* align-items: flex-start; */
+    justify-content: space-evenly;
+    width: 86%;
+    /* background-color: red; */
+    /* color: rgb(225, 184, 107); */
+    margin-bottom: 50px;
     
+} 
+@media screen and (min-width: 900px) {
+    .MenuSelectionFirstDiv{
+        width: 90%;
+    }
 }
 
 .changeColor{
     color: rgb(225, 184, 107);
 }
+
+.MenuSelectionFirstDiv p {
+    margin: 0px;
+    font-weight: 600;
+    font-size: 1.5rem;
+    font-family:serif;
+    border: none;
+    width: 100%;
+    text-align: left;
+    color: rgb(225, 184, 107);
+}
+.MenuSelectionFirstDiv h2{
+    color: rgb(225, 184, 107);
+    margin: 0;
+    min-height: 30px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 100;
+}
+
+/* 
+
+
+
 .MenuSelection h2{
     /* display: flex; */
-    font-weight: 100;
-    font-family: "Poppins", sans-serif;
-    border-style: none;
-    margin: 0px;
-}
+    /* font-weight: 100; */
+    /* font-family: "Poppins", sans-serif; */
+    /* border-style: none; */
+    /* margin: 0px; */
+/* } */
+
+ 
+
 
 .MenuSelection h2::after{
     content: '';
@@ -39,14 +73,20 @@
     background-color: rgb(225, 184, 107);
 }
 
-.MenuSelection
-.MenuSelection p{
-    margin: 0px;
-    font-weight: 600;
-    font-size: 40px;
-    font-family:serif;
-    border: none;
-}
+
+/* .MenuSelection p{
+        margin: 0px;
+        font-weight: 600;
+        font-size: 1.5rem;
+        font-family:serif;
+        border: none;
+        width: 100%;
+        text-align: left;
+} */
+
+
+
+
 
 .MenuSelectionSecondDiv{
     display: flex;
@@ -79,14 +119,11 @@
     cursor: pointer;
 }
 .MenuSelectionSecondDiv a{
-    font-size: 1.2rem;
+    font-size: 1rem;
 }
 
 
 @media screen and (min-width: 1300px){
-    .MenuSelectionFirstDiv{
-        width: 87%;
-    }
     .MenuSelectionSecondDiv a{
         font-size: inherit;
     }

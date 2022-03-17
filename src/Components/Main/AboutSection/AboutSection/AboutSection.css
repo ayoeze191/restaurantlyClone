@@ -29,7 +29,7 @@
 .about-img{
     width: 80%;
     max-width: 500px;
-    height: 300px;
+    height: 50vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -47,7 +47,7 @@
 
 .about-img:hover{
     width: 90%;
-    height: 350px;
+    height: 55vh;
 }
 
 .about-image-div{

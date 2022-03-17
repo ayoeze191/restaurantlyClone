@@ -2,7 +2,7 @@
     /* position: fixed; */
     transition: all 10s;
     display: flex;
-    justify-content: space-between;
+    /* justify-content: space-between; */
     flex-direction: column;
     background-position:center;
     background-size: cover;
@@ -12,16 +12,17 @@
     position: relative;
     z-index: 1;
     transition: all 0.5s;
+    height: 100vh;
     /* z-index: 997; */
     /* top: 40px; */
-    min-height: 500px;
+    /* min-height: 500px; */
 }
 
 
 @media (min-width: 800px){
-    .Header{
+    /* .Header{
         max-height: 80vh;
-    }
+    } */
 }
 
 .Header::after{

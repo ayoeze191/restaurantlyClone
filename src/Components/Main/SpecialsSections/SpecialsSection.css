@@ -12,15 +12,19 @@
     color: #cda45e;
     width: 90%;
     font-weight: thin;
+    margin-bottom: 40px;
 }
 .SpecialsSection h2{
+    margin: 0;
     display: flex;
     width: 50%;
     align-items: center;
     font-weight: 100;
     font-family: "Poppins", sans-serif;
+    min-height: 40px;
 }
 .SpecialsSection p{
+    margin: 0;
     font-size: xx-large;
     
 }
@@ -34,7 +38,7 @@
     .Specials-links {
         width: 350px;
         border-right-style: solid;
-        height: fit-content;
+        /* height: fit-content; */
         border-color: #cda45e;
     }
     .Specials-links a{
