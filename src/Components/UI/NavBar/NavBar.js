@@ -5,12 +5,13 @@ import NavItemsDesktop from "./NavItems/NavItemsDesktop/NavItemsDesktop";
 
 import './NavBar.css'
 const NavBar = (props) => {
-    const [c, setC] = useState(null);
+    const [c, setC] = useState(false);
+
     
 
-
     return (
-        <div className= {c?'NavBar Navup':'NavBar Navdown'?'NavBar':null}>
+        // <div className= {c?'NavBar Navup':'NavBar Navdown'}>
+        <div className="NavBar">
             <div className = "logo">
             <RestaurantName
              case = "uppercase" 

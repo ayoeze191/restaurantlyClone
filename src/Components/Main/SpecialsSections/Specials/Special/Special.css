@@ -3,7 +3,6 @@
     flex-direction: column;
     width: 100%;
     align-items: center;
-
 }
 
 .Special-img {
@@ -14,7 +13,7 @@
 }
 .Special-img img{
     width: 80%;
-    /* margin: auto; */
+
 }
 
 .Specials-Secondiv{
@@ -28,29 +27,9 @@
     color: rgb(102, 99, 99);
     font-size: large;
     font-style: italic;
-    
+    display: flex;
 }
-/* @media screen and (min-width: 700px) {
-    .Special-img img{
-        width: 250px;
-       
-    }
-    .Special-img{
-        order: 2;
-        background-color: orange;
-        width: fit-content;
-    }
 
-   /* .Special{
-        display: flex;
-        flex-direction: row;
-        background-color: blue;
-        padding-left: 20px;
-    }
-    .Specials-Secondiv{
-        background-color: aqua;
-    }
-} */
 
 @media screen and (min-width:1000px) {
     .Special-img img{

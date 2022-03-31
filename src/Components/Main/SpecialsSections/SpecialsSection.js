@@ -30,11 +30,11 @@ const SpecialsSection = () => {
 
     return (
         <div className = "Boss" id = "SpecialsSelection">
-            <div className = "SpecialsSection">
+            <div className = "SpecialsSection" data-aos = "fade-up" data-aos-duration = "700">
             <h2>Specials<hr/></h2>
             <p>Check Our Specials</p>
             </div>
-            <div className = "SpecialsSectionDiv">
+            <div className = "SpecialsSectionDiv"  data-aos = "fade-up" data-aos-duration = "700">
             <div className = "Specials-links">
             <a onClick = {changeStatus} href = "#" className = {status==0?"a":null}>
                 Modi Sit Est

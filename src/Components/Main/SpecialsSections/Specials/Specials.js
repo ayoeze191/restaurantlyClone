@@ -38,7 +38,7 @@ const Specials = (props) => {
    ,[props.no])
 
     return (
-        <div className = "Specialss">
+        <div className = "Specialss" data-aos = "fade-up" data-aos-duration = "700">
             {/* {lis.map((a) => {
                 
                 return <Special {...a}/>

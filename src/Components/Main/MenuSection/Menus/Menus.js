@@ -26,7 +26,7 @@ const Menus = (props) => {
         {image: lobsterRoll, ingredients: "Lobster Roll", ingredientsDescription: "Plump lobster meat, mayo and crisp lettuce on a toasted bulky roll", price: "11.95"},
     ]
     return(
-        <div className = "Menus">
+        <div className = "Menus" data-aos = "fade-up" data-aos-duration = "700">
             {
         items.map(item => {
             let count = 0;

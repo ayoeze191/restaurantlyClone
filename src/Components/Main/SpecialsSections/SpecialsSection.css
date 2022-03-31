@@ -34,10 +34,11 @@
         width: 89%;
         
         /* background-color: #cda45e; */
-    }
+    }   
     .Specials-links {
-        width: 350px;
+        
         border-right-style: solid;
+        
         /* height: fit-content; */
         border-color: #cda45e;
     }

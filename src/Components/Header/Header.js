@@ -14,7 +14,9 @@ const [MobileNavStatus, setMobileNavStatus] = useState(false);
         setMobileNavStatus(true)
           // console.log(this.state.MobileNavStatus)
       }
-    
+
+      
+
       const RemoveMobileNav = () => {
         setMobileNavStatus(false)
       }

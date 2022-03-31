@@ -14,11 +14,11 @@ const MenuSelection = () => {
     }
     return (
         <div className = "MenuSelection" id = "MenuSelection">
-            <div className = "MenuSelectionFirstDiv">
+            <div className = "MenuSelectionFirstDiv" data-aos = "fade-up" data-aos-duration = "700">
         <h2>MENU</h2>
         <p> ChecK Our Tasty Menu</p>
         </div>
-        <div className = "MenuSelectionSecondDiv">
+        <div className = "MenuSelectionSecondDiv" data-aos = "fade-up">
            <a className = {status=="All"?"changeColor":null} onClick = {(e) => changeStatus(e)}>
                All
            </a>

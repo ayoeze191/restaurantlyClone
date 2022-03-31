@@ -13,7 +13,7 @@ const AboutSection = () => {
         <div style = {{ backgroundImage: `url(${aboutBg})`}} id = "About" className = "AboutSection">
             <OverLay height = "fit-content" thickness = "0.6" position = "normal">
                 <div className = "secondAbout">
-                <div className = 'about-img'>
+                <div className = 'about-img' data-aos = "zoom-in" data-aos-duration = "700">
                   <div className = "cutters-div">
                     <div className = "cutter up"> 
                     </div>
@@ -25,7 +25,7 @@ const AboutSection = () => {
                     </div>
                 </div>
 
-            <div class="content">
+            <div class="content" data-aos="fade-up" data-aos-duration = "700">
             <h3>Voluptatem dignissimos provident quasi corporis voluptates sit assumenda.</h3>
             <p class="fst-italic">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
@@ -48,6 +48,6 @@ const AboutSection = () => {
         </div>
     )
 }
-// style = {{ backgroundImage: `url(${herobg})`}}
+
 
 export default AboutSection

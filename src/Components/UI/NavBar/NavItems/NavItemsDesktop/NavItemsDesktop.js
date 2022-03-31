@@ -19,7 +19,7 @@ return (
     <div className = "NavItemsDesktop-Top">
       <div className = "NavItemsDesktop">
           {items.map(item => (
-              <NavItem {...item} click = {null}/>
+              <NavItem {...item} click = {null} DropDown = {item.dropDown}/>
           ))
 }           
         </div>

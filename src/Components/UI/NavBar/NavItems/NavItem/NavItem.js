@@ -9,8 +9,27 @@ const NavItem = (props) => {
         // console.log(props.link)
     })
     return (
-        <div className = "NavItem" key = {props.key}>
+        <div className = "NavItem" key = {props.key} style= {{width: props.DropDown&&'100px', height: props.DropDown&&'20px'}}>
         <a href = {props.link} style = {{color: props.value == 'Home'?'#cda45e':null}} onClick = {props.click}>{props.value}</a>
+
+        {props.DropDown&& <div className="menu-bar"><ul>
+            <li>Dropdown1</li> 
+            <li>Dropdown2</li> 
+            <li className="deep">DeepDropdown
+                <div className="Deep DropDown">
+                <ul>
+                <li>Dropdown1</li> 
+                <li>Dropdown2</li> 
+                <li>DeepDropdown</li> 
+                <li>Dropdown3</li> 
+                <li>Dropdown4</li> 
+                </ul>
+                </div>
+                </li> 
+            <li>Dropdown3</li> 
+            <li>Dropdown4</li> 
+        </ul>
+        </div>}
         <div>
         {/* {props.dropDown?
         items.map(item => (
