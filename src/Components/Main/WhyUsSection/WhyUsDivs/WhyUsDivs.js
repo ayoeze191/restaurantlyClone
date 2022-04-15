@@ -10,8 +10,8 @@ const WhyUsDivs = () => {
     return (
         <div className = "WhyUsDivs">
             {
-                values.map(value => (
-                    <WhyUsDiv {...value}/>
+                values.map((value, index) => (
+                    <WhyUsDiv {...value} id = {index}/>
                 ))
             }
         </div>

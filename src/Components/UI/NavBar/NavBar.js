@@ -10,7 +10,6 @@ const NavBar = (props) => {
     
 
     return (
-        // <div className= {c?'NavBar Navup':'NavBar Navdown'}>
         <div className="NavBar">
             <div className = "logo">
             <RestaurantName
@@ -23,12 +22,9 @@ const NavBar = (props) => {
                 <img alt = "a nav bar" width = "30" height = "20" src = {nav} onClick = {props.ShowMobileNav}/>
             </div>
             </div>
-            {/* <NavItems /> */}
-            {/* <div> */}
-      
-        {/* </div> */}
         </div>
     )
 }
+
 
 export default NavBar

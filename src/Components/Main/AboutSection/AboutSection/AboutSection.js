@@ -10,10 +10,10 @@ import aboutBg from '../../../../assets/aboutBg.jpg';
 
 const AboutSection = () => {
     return (
-        <div style = {{ backgroundImage: `url(${aboutBg})`}} id = "About" className = "AboutSection">
-            <OverLay height = "fit-content" thickness = "0.6" position = "normal">
+        <div style = {{ backgroundImage: `url(${aboutBg})`, "padding": ""}} id = "About" className = "AboutSection">
+            <OverLay height = "fit-content" thickness = "0.6" position = "normal" padding="4rem 0">
                 <div className = "secondAbout">
-                <div className = 'about-img' data-aos = "zoom-in" data-aos-duration = "700">
+                <div className = 'about-img' data-aos = "zoom-in" data-aos-duration = "100" >
                   <div className = "cutters-div">
                     <div className = "cutter up"> 
                     </div>

@@ -1,0 +1,114 @@
+.BookATableSection{
+    width: 89%;
+    margin: 0 auto;
+    padding: 4rem 0;
+    
+}
+
+.form{
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.BookATableSection .title{
+    margin-bottom: 3rem;
+    /* color: rgb(225, 184, 107); */
+}
+
+.BookATableSection .title h2::after{
+    content: '';
+    display: inline-block;
+    background-color: rgb(225, 184, 107);
+    height: 1px;
+    width: 80px;
+    margin-left: 0.725rem;
+}
+@media (min-width:700px){
+    .input{
+        grid-auto-flow: dense;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        column-gap: 40px;
+        
+    }
+
+}
+
+
+@media (min-width: 992px){
+    .input{
+        display: grid;
+        grid-template-columns: repeat(3, minmax(auto, 1fr));
+        
+    }
+    .inputdivs{
+        margin-bottom: 0px;
+    }
+}
+.BookATableSection .title h2{
+ color: #aaaaaa;
+ display: flex;
+ align-items: center;
+ margin-bottom: 0.5rem;
+}
+.BookATableSection .title h1{
+    color: rgb(225, 184, 107);
+}
+
+.BookATableSection input{
+    border-style: hidden;
+    padding: 1rem 0.75rem;
+    background-color: inherit;
+    width: 100%;
+}
+
+input::placeholder{
+    color:  rgb(229, 217, 196);
+
+    font-weight: 100;
+}
+
+input:hover{
+    border-color: rgb(225, 184, 107);
+}
+
+.BookATableSection textarea{
+    background-color: inherit;
+    width: 100%;
+    color:  white;  
+    border-style: hidden;
+    border-width: 2px;
+    padding: 1rem 0.75rem;
+    box-sizing: border-box;
+ 
+    width: 100%;
+   
+}
+
+.Textareadiv{
+    width: 100%;
+    border-color: #625b4b;
+    border-width: 2px;
+    border-style: solid;
+}
+.inputdivs{
+    color:  white;
+    border-color: #625b4b;
+    border-width: 1px;
+    border-style: solid;
+    max-width: 30rem;
+    width: 100%;
+    margin-bottom: 2rem;
+    margin-right: auto;
+    margin-right: auto;
+}
+.input{
+    width: 100%;
+}
+
+.BookATableSection textarea:hover{
+    border-color: rgb(225, 184, 107);
+    max-width: 30rem;
+}

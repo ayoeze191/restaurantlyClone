@@ -2,11 +2,14 @@
     margin: 0px;
     display: flex;
     flex-direction: column;
-    padding-top: 70px;
+
     width: 100%;
     align-items: center;
     margin: auto;
+    background-color: #1a1814;
+    padding: 4rem 0;
    
+    
 }
 
 .MenuSelectionFirstDiv{

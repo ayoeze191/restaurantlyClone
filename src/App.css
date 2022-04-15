@@ -5,8 +5,16 @@
 }
 
 
+*{
+  margin: 0; 
+  padding: 0;
+}
+
+
 body{
   margin: 0;
+  background: #0c0b09;
+  padding: 0;
 }
 html {
   scroll-behavior: smooth;

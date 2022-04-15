@@ -9,7 +9,12 @@
     z-index: 1;
     box-sizing: border-box;
     top: 3rem;
-    
+}
+
+@media (min-width: 100px) {
+    .NavBar{
+        height: 100px;
+    }
 }
 .NavBar .logo{
 

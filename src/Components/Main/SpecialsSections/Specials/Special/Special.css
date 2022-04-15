@@ -27,18 +27,19 @@
     color: rgb(102, 99, 99);
     font-size: large;
     font-style: italic;
-    display: flex;
+    /* display: flex; */
 }
 
 
 @media screen and (min-width:1000px) {
     .Special-img img{
-        width: 300px;
+        width: 250px;
+
     }
     .Special{
         display: flex;
         flex-direction: row;
-        width: 900px;
+        /* width: 900px; */
         height: inherit;
     }
     .Specials-Secondiv{
@@ -46,17 +47,16 @@
         height: 100%;
         padding-left: 20px;
     }
+    .Specials-Secondiv .Special-Description{
+        flex: 1;
+    }
 
     .Special-img{
         order: 2;
+        
         width: fit-content;
     }
 }
-@media screen and (min-width:1500px) {
-    .Special-img img{
-        width: 400px;
 
-    }
-}
 
 

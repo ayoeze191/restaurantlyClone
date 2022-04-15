@@ -5,6 +5,7 @@
     /* background-size: contain; */
     background-size: cover;
     width: 100%;
+    
     /* height: 1000vh; */
     /* background-color: red; */
     /* position: relative; */
@@ -39,6 +40,7 @@
     transition: all 0.6s ease-in-out;
     border-width: 5px;
     border-color: rgb(112, 109, 109);
+    margin-bottom: 2rem;
 }
 .about-img img{
     width: 100%;
@@ -108,15 +110,6 @@
 
 
    
-    /* .about-img{
-      max-width: 390px;
-       height: 340px;
-       order: 2;
-    }
-    .about-img:hover {
-        max-width: 400px;
-        height: 350px;
-    }   */
 
 
 .AboutSection .content{
@@ -125,6 +118,7 @@
     width: 90%;
     max-width: 500px;
     text-align: left;
+    
 }
 
 
@@ -133,21 +127,26 @@
 
 .AboutSection .content h3{
     font-size: x-large;
+    margin-bottom: 10px;
 }
 
 .AboutSection .content p{
     font-size: medium;
     font-weight: 500;   
+    margin-bottom: 2rem;
 }
 
 
 .AboutSection .content .fst-italic{
      font-style: italic;
+     margin-bottom: 2rem;
 }
 
 .AboutSection .content ul{
     font-size: medium;
+    margin-bottom: 2rem;
 }
+
 
 
 

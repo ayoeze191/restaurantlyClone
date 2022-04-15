@@ -12,7 +12,7 @@ const NavItem = (props) => {
         <div className = "NavItem" key = {props.key} style= {{width: props.DropDown&&'100px', height: props.DropDown&&'20px'}}>
         <a href = {props.link} style = {{color: props.value == 'Home'?'#cda45e':null}} onClick = {props.click}>{props.value}</a>
 
-        {props.DropDown&& <div className="menu-bar"><ul>
+        {/* {props.DropDown&& <div className="menu-bar"><ul>
             <li>Dropdown1</li> 
             <li>Dropdown2</li> 
             <li className="deep">DeepDropdown
@@ -29,7 +29,7 @@ const NavItem = (props) => {
             <li>Dropdown3</li> 
             <li>Dropdown4</li> 
         </ul>
-        </div>}
+        </div>} */}
         <div>
         {/* {props.dropDown?
         items.map(item => (

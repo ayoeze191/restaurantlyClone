@@ -4,15 +4,16 @@
     width: 100%;
     background-color: black;
     align-items: center;
+    padding: 4rem 0;
 }
 
 .SpecialsSection{
     display: flex;
     flex-direction: column;
     color: #cda45e;
-    width: 90%;
+    width: 89%;
     font-weight: thin;
-    margin-bottom: 40px;
+    /* margin-bottom: 40px; */
 }
 .SpecialsSection h2{
     margin: 0;
@@ -31,12 +32,12 @@
 @media screen and (min-width:1000px) {
     
     .SpecialsSection{
-        width: 89%;
+        /* max-width: 1320px; */
         
         /* background-color: #cda45e; */
     }   
     .Specials-links {
-        
+        flex: 0.3;
         border-right-style: solid;
         
         /* height: fit-content; */
@@ -57,6 +58,8 @@
         align-items: center;
         flex-direction: row;
         width: 89%;
+        max-width: 1320px;
+        
         
         /* background-color: red; */
     }
@@ -79,3 +82,8 @@
 .a{
     background-color: #cda45e;
 }
+
+@media (min-width: 1400px){
+.SpecialsSection .SpecialsSectionDiv{
+    max-width: 1320px;
+}}

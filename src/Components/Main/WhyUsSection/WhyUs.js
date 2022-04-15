@@ -10,8 +10,8 @@ const WhyUs = () => {
         <h2>Why Us</h2>
         <p>Why Choose Our Restaurant</p>
         </div>
-
-        <div className = "WhyUsSecondDiv" data-aos = "fade-up" data-aos-duration = "700">
+        {/* data-aos = "zoom-in" data-aos-duration = "100" */}
+        <div className = "WhyUsSecondDiv">
         <WhyUsDivs />
         </div>
 

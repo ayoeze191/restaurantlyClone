@@ -7,15 +7,13 @@
     background-position:center;
     background-size: cover;
     background-repeat: no-repeat;   
-    /* top: 0; */
+    top: 0;
     bottom: 0;
     position: relative;
+    background-attachment: fixed;
     z-index: 1;
     transition: all 0.5s;
     height: 100vh;
-    /* z-index: 997; */
-    /* top: 40px; */
-    /* min-height: 500px; */
 }
 
 

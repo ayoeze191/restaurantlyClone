@@ -6,6 +6,7 @@ import specials2 from '../../../../assets/specials2.png'
 import specials3 from '../../../../assets/specials3.png'
 import specials4 from '../../../../assets/specials4.png'
 import specials5 from '../../../../assets/specials5.png'
+import './Specials.css' 
 
 const Specials = (props) => {
     const [status, setStatus] = useState(null);
@@ -38,7 +39,7 @@ const Specials = (props) => {
    ,[props.no])
 
     return (
-        <div className = "Specialss" data-aos = "fade-up" data-aos-duration = "700">
+        <div className = "Specials" data-aos = "fade-up" data-aos-duration = "700">
             {/* {lis.map((a) => {
                 
                 return <Special {...a}/>
@@ -48,5 +49,4 @@ const Specials = (props) => {
         </div>
     )
 }
-
 export default Specials
