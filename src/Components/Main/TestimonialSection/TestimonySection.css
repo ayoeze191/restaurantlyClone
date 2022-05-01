@@ -1,0 +1,26 @@
+.TestimonySection h2{
+    color: #cda45e;
+}
+
+.TestimonySection .TestimonyDiv{
+    margin-bottom: 20px;
+}
+.TestimonySection > div > p{
+    color: #aaaaaa;
+    font-size: 14px;
+    font-weight: 500;
+    padding: 0;
+    line-height: 1px;
+    margin: 0 0 15px 0;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-family: poppins;
+}
+.TestimonySection > div > p::after{
+    content: '';
+    display: inline-block;
+    height: 1px;
+    width: 120px;
+    background: rgba(255, 255, 255, 0.2);
+    margin: 4px 10px;
+}

@@ -31,7 +31,7 @@ export const BookATableSection = () => {
         <div class="Textareadiv">
             <textarea class="" name="message" rows="5" placeholder="Message"></textarea>
         </div>
-        <button></button>
+        <button>Book A Table</button>
       </div>
     </div>
   );

@@ -5,6 +5,7 @@ import MenuSelection from "./MenuSection/MenuSelection";
 import SpecialsSection from "./SpecialsSections/SpecialsSection";
 import Event from "./Event/Event";
 import { BookATableSection } from "./BookATableSections/BookATableSection";
+import TestimonialSection from "./TestimonialSection/TestimonialSection";
 
 const Main = () => {
     return(
@@ -16,7 +17,7 @@ const Main = () => {
 
                 <Event />
                 <BookATableSection />
-          
+                <TestimonialSection/>
         </div>
     )
 }

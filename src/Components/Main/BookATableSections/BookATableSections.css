@@ -59,9 +59,11 @@
 
 .BookATableSection input{
     border-style: hidden;
-    padding: 1rem 0.75rem;
+    padding: 0.75rem 0.75rem;
     background-color: inherit;
     width: 100%;
+    color: white;
+    /* background-color: red; */
 }
 
 input::placeholder{
@@ -98,7 +100,7 @@ input:hover{
     border-color: #625b4b;
     border-width: 1px;
     border-style: solid;
-    max-width: 30rem;
+    /* background-color: green; */
     width: 100%;
     margin-bottom: 2rem;
     margin-right: auto;
@@ -111,4 +113,21 @@ input:hover{
 .BookATableSection textarea:hover{
     border-color: rgb(225, 184, 107);
     max-width: 30rem;
+}
+
+
+.BookATableSection button{
+    margin-top: 3rem;
+    border-radius: 20px;
+    padding: 12px 34px;
+    border-style: hidden;
+    color: #eeee;
+    background-color: rgb(198, 167, 109);
+    cursor: pointer;
+}
+
+
+.BookATableSection button:hover{
+    background-color: rgb(225, 184, 107);
+    transition: background-color 1s;
 }
