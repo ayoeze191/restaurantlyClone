@@ -24,7 +24,7 @@
 .NavItemsMobile-Top{
     background-color: rgba(0, 0, 0, 0.85);
     position: fixed;
-    /* background-color: red; */
+    /* ; */
     height: 100vh;
     z-index: 200;
     top: 0px;
@@ -37,7 +37,7 @@
 }
 
 .close-btn {
-    /* background-color: red; */
+    /* ; */
     width: 90%;
     height: 10%;
     display: flex;

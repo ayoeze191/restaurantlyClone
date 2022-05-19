@@ -4,7 +4,7 @@
     box-sizing: content-box;
     margin-bottom: 20px;
     justify-content: space-between;
-    /* background-color: red; */
+    /* ; */
 }
 
 
@@ -25,7 +25,7 @@
     content: '----------------';
     margin-left: 10px;
     color: rgb(169, 158, 158);
-    /* background-color: red; */
+    /* ; */
     /* outline-color: red; */
 }
 

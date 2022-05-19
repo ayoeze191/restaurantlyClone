@@ -2,6 +2,10 @@
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
+    margin: 0 auto;
+    position: relative;
+    /* ; */
+    width: 89%;
 }
 
 @media screen and (min-width: 1000px) {

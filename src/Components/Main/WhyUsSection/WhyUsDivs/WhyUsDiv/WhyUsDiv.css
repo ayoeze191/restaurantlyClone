@@ -1,6 +1,6 @@
 .WhyUsDiv {
     background: #181715;
-    margin: 20px;
+    /* margin: 20px; */
     display: flex;
     flex-direction: column;
     height: 300px;
@@ -8,6 +8,8 @@
     justify-content: space-evenly;
     text-align: left;
     padding: 20px;
+    margin-bottom: 20px;
+    width: 100%;
     box-shadow: 10px 15px 30px rgba(0, 0, 0, 0.18);
 }
 
@@ -27,6 +29,12 @@
       padding: auto;
     }
     
+}
+
+@media screen and (min-width: 1100px){
+    .WhyUsDiv{
+        margin: 20px;
+    }
 }
 
 .WhyUsDiv .p{

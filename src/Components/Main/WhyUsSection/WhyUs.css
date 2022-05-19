@@ -1,9 +1,5 @@
 .WhyUs {
-    /* height: 200vh; */
-    /* width: 100%; */
     box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
-    /* background-color: #020202f1; */
-    /* background-color: green; */
     background-color: #1a1814;
     margin: 0;
     display: flex;
@@ -11,8 +7,6 @@
     align-items: center;
     justify-content: space-evenly;
     padding: 4rem 0;
-    
-    /* position: relative; */
     
 }
 hr{
@@ -34,7 +28,7 @@ hr{
     width: 80%;
     height: 150px;
     color: rgb(225, 184, 107);
-    /* background-color: red; */
+    /* ; */
     background-color: #1a1814
     /* width: 100%; */
 }
@@ -44,7 +38,7 @@ hr{
     /* align-items: center; */
     /* justify-content: space-evenly; */
     width: 250px;
-    /* background-color: red; */
+    /* ; */
     font-weight: 100;
     font-family: "Poppins", sans-serif;
     /* font-family:'Segoe UI', Tahoma, Geneva, Verdana; */
@@ -74,7 +68,7 @@ hr{
 
 
 .WhyUsSecondDiv{
-    width: 90%;
+    width: 100%;
 }
 
 @media screen and (min-width: 1100px){
