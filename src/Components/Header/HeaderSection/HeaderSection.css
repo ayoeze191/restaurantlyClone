@@ -104,8 +104,6 @@
       flex-direction: column;
       justify-content: center;
       align-items: center;
-      /* height: 300px; */
-      
       margin-bottom: 40px;
       margin-left: auto;
       margin-right: auto;
@@ -114,9 +112,6 @@
       animation: AnimateHeader-welcome-h1 1.5s;
       flex: 1.5;
       margin-bottom: 0;
-
-      /* ; */
-      
   }
 
  

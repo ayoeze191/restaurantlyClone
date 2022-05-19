@@ -38,19 +38,25 @@ const Testimonys = (props) => {
     ]
 
   return (
-    <div>
+    <div className = "Testimonys">
     <Swiper
+    
+
         loop = {true}
         speed={600}
       spaceBetween={50}
       autoplay = {{"delay": 5000}}
       pagination = {{clickable: true}}
-      // scrollbar={{ draggable: true }}
       slidesPerView='auto'
       breakpoints={{320: {
         slidesPerView: 1,
         spaceBetween: 20
-      },  1200: {
+      },  
+      // 640: {
+      //   slidesPerView: 2,
+      //   spaceBetween: 20
+      // },
+      1200: {
         slidesPerView: 3,
         spaceBetween: 20
       }}}
@@ -58,7 +64,7 @@ const Testimonys = (props) => {
       onSwiper={(swiper) => console.log(swiper)}
       
       autoHeight = {true}
-      className = "Testimonys"
+      
       >
          {people.map((person) => <SwiperSlide> 
          <Testimony {...person} /></SwiperSlide>)}

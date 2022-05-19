@@ -1,8 +1,7 @@
 .Header{
-    /* position: fixed; */
+    
     transition: all 10s;
     display: flex;
-    /* justify-content: space-between; */
     flex-direction: column;
     background-position:center;
     background-size: cover;

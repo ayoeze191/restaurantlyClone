@@ -11,7 +11,7 @@
     top: 3rem;
 }
 
-@media (min-width: 100px) {
+@media screen and (min-width: 750px) {
     .NavBar{
         height: 100px;
     }

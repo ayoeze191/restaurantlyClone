@@ -6,20 +6,20 @@ import './Testimony.css'
 
 const Testimony = (props) => {
   return (
-    <div className='Testimony'>
-        <p className='story'>
+    <>
+        <p className='Testimony-story'>
           {props.story}
            </p>
-           <div className='img-name'>
-             <div className='image-div'>
+           <div className='Testimony-img-name'>
+             <div className='Testimony-image-div'>
              <img src={props.image} />
              </div>
-             <div>
+             <div className='Testimony-sen'>
                <h3>{props.name}</h3>
                <h4>{props.occupation}</h4>
              </div>
              </div>        
-    </div>
+    </>
   )
 }
 

@@ -1,15 +1,16 @@
 .Testimony{
     display: flex;
     flex-direction: column;
+    width: 100%;
     /* position: relative; */
 }
 
 
-.Testimony img{
+.Testimony-image-div img{
     width: 100%;
     border-radius: 50px;
 }
-.Testimony .image-div{
+.Testimony-image-div{
     width: 90px;
     border-color:rgba(255, 255, 255, 0.2);
     margin: -40px 0 0 40px;
@@ -20,24 +21,8 @@
     border-width: 6px;
     display: flex;
 }
-.Testimonys .swiper-pagination-bullet{
-    position: relative;
-    width: 12px;
-    height: 12px;
-    margin-top: 30px;
-    background-color: rgba(255, 255, 255, 0.4);
-    opacity: 1;
-}
-.Testimonys .swiper-pagination-bullet-active {
-    background-color: #cda45e;
-}
 
-.Testimonys .swiper-pagination{
-    position: relative;
-    margin-top: 30px;
-}
-
-.Testimony .story{
+.Testimony-story{
     flex: 1;
     background-color: #26231d;  
     font-style: italic;
@@ -48,13 +33,13 @@
     z-index: 1; 
     color: white;
 }
-.Testimony h3{
+.Testimony-sen h3{
     font-size: 18px;
     font-weight: bold;
     margin: 10px 0 5px 45px;
     color: white;
 }
-.Testimony h4{
+.Testimony-sen h4{
     font-size: 14px;
     color: rgba(255, 255, 255, 0.6);
     margin: 0 0 0 45px;
